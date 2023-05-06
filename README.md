@@ -75,7 +75,7 @@ rnaQUAST still works under Python2 (2.5+), but since Python2 is outdated, its su
 
 Note, that due to the limitations of `BLAT`, in order to work with reference genomes of size more than 4 Gb a `pslSort` is also required.
 
-Paths to `blastn` and `GMAP` (or `BLA`T) should be added to the `$PATH` environmental variable. To check that everything is installed correctly we recommend to run:  
+Paths to `blastn` and `GMAP` (or `BLAT`) should be added to the `$PATH` environmental variable. To check that everything is installed correctly we recommend to run:  
 
     python rnaQUAST.py --test
 
